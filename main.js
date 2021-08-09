@@ -168,7 +168,7 @@ function checkForWin(t){
         showWin(1, 2, 0)     
         return true
     }else if(t[3]==t[4] && t[4]==t[5] && t[3]!=' '){
-        showWin(3, 4,50)  
+        showWin(3, 4,5)  
         return true
     }else if(t[6]==t[7] && t[7]==t[8] && t[6]!=' '){
         showWin(6, 7, 8)  
